@@ -1,0 +1,200 @@
+.zaglaven {
+    height: 700px;
+    background-image: url(images/fon.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zaglaven-text{
+    margin: 30px;
+    color: rgb(244, 245, 246);
+}
+
+.logo-div{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 15px;
+    margin: 30px;
+}
+
+.logo{
+    width: 15rem;
+}
+
+.zaglaven-text > h1 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    text-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+}
+
+.zaglaven-text > h3 {
+    font-size: 20pt;
+    text-shadow: 2px 5px 10px rgba(0,0,0,0.8);  
+}
+
+.btn{
+    font-size: 14px;
+    color: #000000;
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+    padding: 10px 19px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 1px;
+    transition : 1000ms;
+    transform: translateY(0);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+    color: #eb1c05;
+    border: solid 2px #fa0505;
+}
+
+.section2-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.zaglavia {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 100;
+    font-size: 30pt;
+}
+
+.section2-p {
+    text-align: center;
+    width: 60%;
+    font-size: 15pt;
+}
+
+.section2-div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.reviewta{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.publikatsia {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.091) 0px 0px 10px 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.publikatsia-avtor{
+    display: flex;
+    align-items: center;
+}
+.publikatsia-avtor > img {
+    width: 50px;
+}
+.avtor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.avtor > h5,h4{
+    margin: 3px 10px;
+}
+
+.section3-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.abonamenti{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.abonament{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.091) 0px 0px 10px 10px;
+    background-color: #fae6c3;
+}
+
+.abonament-ime{
+    background-color: #563908;
+    color: rgb(205, 202, 202);
+    display: flex;
+    justify-content: center;
+}
+
+.abonament-tyalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abonament-tyalo > h3{
+   font-size: 18pt;
+}
+
+.abonament-spisak{
+    font-size: 14pt;
+    height: 100px;
+}
+
+.kontakti{
+    background-color: #563908;
+    color: rgb(234, 232, 232);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontakti-tyalo{
+    display: flex;
+}
+
+.kontakti-tyalo > div {
+    width: 50%;
+}
+
+.kontakti-forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontakti-forma > input, textarea{
+    width: 60%;
+    margin: 8px;
+}
+
+.kontakti-forma > input{
+    line-height: 30px;
+}
+
+.kontakti-info {
+    padding-left: 40px;
+}
+
+.teskt{
+    font-size: 15pt;
+}
+
+
+
+
